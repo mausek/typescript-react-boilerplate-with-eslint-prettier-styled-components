@@ -1,0 +1,20 @@
+{
+  "development":{
+    "buildDir" :"./build",
+    "remoteDir":"/var/www/myreactapp",
+    "tarballName":"temp-deployment.zip",
+    "host": "1.1.1.1",
+    "port": 22,
+    "username": "user",
+    "password": "coolpassword"
+  },
+  "production":{
+    "buildDir" :"./build",
+    "remoteDir":"/var/www/myreactapp",
+    "tarballName":"temp-deployment.zip",
+    "host": "1.1.1.1",
+    "port": 22,
+    "username": "user",
+    "password": "coolpassword"
+  }
+}
