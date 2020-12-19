@@ -14,6 +14,7 @@ This project is initialized with [Create React App](https://github.com/facebook/
 - styled-components
 - styled-reset
 - rebass
+- polished
 - ESLint (instead of deprecated TSLint)
 - Prettier
 - react-deploy-sftp
