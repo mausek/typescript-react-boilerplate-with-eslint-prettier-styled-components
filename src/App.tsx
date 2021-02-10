@@ -1,13 +1,14 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+// Hooks
 import { useTranslation } from 'react-i18next'
-import { Box, Text } from 'rebass'
+// Components
+
 
 const App: React.FC = () => {
   const { t } = useTranslation()
   return (
-    <Box>
-      <Text>{t('helloWorld')}</Text>
-    </Box>  
+    <div>hello world!</div>
   );
 }
 

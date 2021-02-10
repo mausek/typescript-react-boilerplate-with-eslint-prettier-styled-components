@@ -1,7 +1,15 @@
-import { createGlobalStyle } from 'styled-components'
+import { createMuiTheme } from '@material-ui/core'
 
-export default {}
+const theme = createMuiTheme({
+  overrides: {
+    MuiCssBaseline: {
+      '@global': {
+        html: {
+          WebkitFontSmoothing: 'auto',
+        },
+      },
+    },
+  },
+})
 
-export const GlobalStyle = createGlobalStyle`
-  /* Global styles bellow */
-`
+export default theme
