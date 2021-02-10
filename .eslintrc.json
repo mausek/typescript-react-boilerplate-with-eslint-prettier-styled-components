@@ -32,7 +32,9 @@
     "@typescript-eslint/prefer-interface": "off",
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/camelcase": "off",
-    "simple-import-sort/sort": "warn",
+    "@typescript-eslint/member-delimiter-style": "off",
+    "simple-import-sort/sort": "off",
+    "react/prop-types": "off",
     "no-console": "off",
     "sort-keys": "off",
     "sort-imports": "off"

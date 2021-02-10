@@ -1,4 +1,5 @@
-import { createMuiTheme } from '@material-ui/core'
+import grey from '@material-ui/core/colors/grey';
+import { createMuiTheme } from '@material-ui/core/styles'
 
 const theme = createMuiTheme({
   overrides: {
@@ -7,6 +8,9 @@ const theme = createMuiTheme({
         html: {
           WebkitFontSmoothing: 'auto',
         },
+        body: {
+          background: grey[100],
+        }
       },
     },
   },
