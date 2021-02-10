@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import Container from '@material-ui/core/Container'
 import { makeStyles } from '@material-ui/core/styles'
@@ -12,10 +13,15 @@ const useStyles = makeStyles({
     paddingTop: 94
   }
 })
+=======
+import { useTranslation } from 'react-i18next'
+import { Box, Text } from 'rebass'
+>>>>>>> parent of f45731b... Init
 
 const App: React.FC = () => {
   const classes = useStyles()
   return (
+<<<<<<< HEAD
     <BrowserRouter>
       <Header />
       <Container maxWidth='md' className={classes.main}>
@@ -30,6 +36,12 @@ const App: React.FC = () => {
       </Container>
     </BrowserRouter>
   )
+=======
+    <Box>
+      <Text>{t('helloWorld')}</Text>
+    </Box>  
+  );
+>>>>>>> parent of f45731b... Init
 }
 
 export default App
