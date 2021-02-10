@@ -15,11 +15,6 @@
     "deploy": "node ./node_modules/react-deploy-sftp/cli.js deploy production",
     "deploy:dev": "yarn build && node ./node_modules/react-deploy-sftp/cli.js deploy development"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn lint && yarn typecheck"
-    }
-  },
   "dependencies": {
     "i18next": "^19.8.4",
     "i18next-browser-languagedetector": "^6.0.1",
