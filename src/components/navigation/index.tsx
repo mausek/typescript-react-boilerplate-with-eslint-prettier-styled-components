@@ -19,7 +19,7 @@ import { Routes as Nav } from '../../routes'
 const useStyles = makeStyles(() => 
   createStyles({
     drawer: {
-      paddingTop: 105
+      paddingTop: 98
     },
     box: {
       paddingRight: 16,
